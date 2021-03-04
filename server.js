@@ -1,4 +1,4 @@
-const favoriteFood = process.env.FAVORITE_FOOD || 'Pizza';
+const favoriteFood = process.env.FAVORITE_FOOD;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
